@@ -4,17 +4,23 @@ html, body, :root
 	width 100%
 	height 100%
 	background #000
+	color white
+	font-family "Oxygen"
 
 *
 	padding 0
 	margin 0
 	box-sizing border-box
 	text-rendering optimizeLegibility
+	
+*.flex
+	display flex
+	align-items center
+	justify-content center
 
 a
 	&:link, &:visited, &:hover, &:visited:hover, &:focus
 		text-decoration none
 
-@import "imports/typography"
 @import "imports/variables"
-@import "imports/home"
+@import "imports/body"
