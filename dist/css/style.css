@@ -220,6 +220,26 @@ section.main div.page#p9 .info img {
   border-radius: 10px;
   box-shadow: 0 0 100px #333;
 }
+section.main div.page#p10 .info.flex table {
+  border-collapse: collapse;
+}
+section.main div.page#p10 .info.flex table,
+section.main div.page#p10 .info.flex tr,
+section.main div.page#p10 .info.flex td {
+  border: 1px solid #fff;
+}
+section.main div.page#p10 .info.flex td {
+  font-family: "Bitter";
+  font-size: 120%;
+  text-align: center;
+  padding: 8px 12px;
+}
+section.main div.page#p10 .info.flex tr:first-child {
+  color: #ff4900;
+}
+section.main div.page#p10 .info.flex tr td:first-child {
+  color: #ff4900;
+}
 section.main div.page:nth-child(2n) {
   background: #222;
 }
