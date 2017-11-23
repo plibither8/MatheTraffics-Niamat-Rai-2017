@@ -173,6 +173,53 @@ section.main div.page#p2 p.caption {
 section.main div.page#p5 p {
   text-align: center;
 }
+section.main div.page#p6 .info {
+  width: 100%;
+}
+section.main div.page#p6 .info .images {
+  width: 100%;
+}
+section.main div.page#p6 .info .images .matrix {
+  width: 40%;
+  flex-direction: column;
+}
+section.main div.page#p7 img {
+  height: 20%;
+  width: auto;
+  margin: 4% 0;
+}
+section.main div.page#p7 div.info div.equation {
+  color: #ff4900;
+  font-size: 200%;
+}
+section.main div.page#p8 .info {
+  width: 100%;
+}
+section.main div.page#p8 .info .images {
+  height: 100%;
+  width: 90%;
+  justify-content: space-around;
+}
+section.main div.page#p8 .info .images img {
+  width: 45%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 100px #000;
+}
+section.main div.page#p9 .info {
+  flex-direction: row;
+  width: 100%;
+}
+section.main div.page#p9 .info .matrix {
+  height: 100%;
+  width: 50%;
+}
+section.main div.page#p9 .info img {
+  width: 85%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 100px #333;
+}
 section.main div.page:nth-child(2n) {
   background: #222;
 }
