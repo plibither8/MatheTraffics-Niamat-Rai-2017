@@ -1,7 +1,3 @@
-"use strict";
-
-(function () {
-
-	
-
-})();
+window.onload = function() {
+	smoothScroll.init();
+}

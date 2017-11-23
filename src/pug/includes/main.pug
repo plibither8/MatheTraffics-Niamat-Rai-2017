@@ -1,4 +1,4 @@
-.page#p1
+.page#p1.flex
 
 	.info.flex
 		h1 Traffic and its impacts
@@ -7,26 +7,57 @@
 			li Unnecessary stress
 			li Road rage
 			li Higher fuel consumption
-			li Problems in provision of emergency verhicles 
+			li Problems in provision of emergency verhicles
+
+	.buttons.flex
+
+		.down.flex
+
+			a(data-scroll href="#p2") ∨
 
 .page#p2.flex
+	
+	.info.flex
 
-	h1.title Mathe
-		span Traffics
+		h1.title Mathe
+			span Traffics
 
-	p.caption
-		| A Personalized Mathematical Model of Macroscopic Traffic Flow
+		p.caption
+			| A Personalized Mathematical Model of Macroscopic Traffic Flow
 
-.page#p3
+	.buttons.flex
+
+		.up.flex
+
+			a(data-scroll href="#p1") ∧
+
+		.down.flex
+
+			a(data-scroll href="#p3") ∨
+
+.page#p3.flex
 
 	.info.flex
+
 		h1 Assumptions
+
 		ul
+
 			li Every driver takes decisions with respect to their best interests
 			li Absence of random and unpredictable events
 			li Synchronised and ideal traffic lights
 
-.page#p4
+	.buttons.flex
+
+		.up.flex
+
+			a(data-scroll href="#p2") ∧
+
+		.down.flex
+
+			a(data-scroll href="#p4") ∨
+
+.page#p4.flex
 
 	.info.flex
 
@@ -35,7 +66,17 @@
 		p
 			| It is possible to use mathematical analysis to find the optimum route and minimum time delay for a route from any two points A and B taking into account traffic density, route distances and traffic lights. 
 
-.page#p5
+	.buttons.flex
+
+		.up.flex
+
+			a(data-scroll href="#p3") ∧
+
+		.down.flex
+
+			a(data-scroll href="#p5") ∨
+
+.page#p5.flex
 
 	.info.flex
 
@@ -100,7 +141,17 @@
 
 		p As distance decreases, time also decreases
 
-.page#p6
+	.buttons.flex
+
+		.up.flex
+
+			a(data-scroll href="#p4") ∧
+
+		.down.flex
+
+			a(data-scroll href="#p6") ∨
+
+.page#p6.flex
 
 	.info.flex
 
@@ -110,14 +161,25 @@
 
 			.matrix.flex
 
-				img(src="./img/a-matrix.png")
-				img(src="./img/l-d-matrix.png")
+				img(src="./img/matrix-1.png")
+				img(src="./img/l-matrix-theory.png")
+				img(src="./img/d-matrix-theory.png")
 
 			.network.flex
 
 				img(src="./img/network.png")
 
-.page#p7
+	.buttons.flex
+
+		.up.flex
+
+			a(data-scroll href="#p5") ∧
+
+		.down.flex
+
+			a(data-scroll href="#p7") ∨
+
+.page#p7.flex
 
 	.info.flex
 
@@ -149,7 +211,17 @@
 				sup 2
 				| &nbsp;- 0.061x + 51
 
-.page#p8
+	.buttons.flex
+
+		.up.flex
+
+			a(data-scroll href="#p6") ∧
+
+		.down.flex
+
+			a(data-scroll href="#p8") ∨
+
+.page#p8.flex
 
 	.info.flex
 
@@ -160,17 +232,41 @@
 			img(src="./img/map1.png")
 			img(src="./img/map2.png")
 
-.page#p9
+	.buttons.flex
+
+		.up.flex
+
+			a(data-scroll href="#p7") ∧
+
+		.down.flex
+
+			a(data-scroll href="#p9") ∨
+
+.page#p9.flex
 
 	.info.flex
 
 		.matrix.flex
 
+				img(src="./img/a-matrix-example.png")
+				img(src="./img/l-matrix-e1.png")
+				img(src="./img/d-matrix-example.png")
+
 		.images.flex
 
 			img(src="./img/map2.png")
 
-.page#p10
+	.buttons.flex
+
+		.up.flex
+
+			a(data-scroll href="#p8") ∧
+
+		.down.flex
+
+			a(data-scroll href="#p10") ∨
+
+.page#p10.flex
 
 	.info.flex
 
@@ -178,10 +274,30 @@
 
 		include table.pug
 
-.page#p11
+	.buttons.flex
+
+		.up.flex
+
+			a(data-scroll href="#p9") ∧
+
+		.down.flex
+
+			a(data-scroll href="#p11") ∨
+
+.page#p11.flex
+
+	.buttons.flex
+
+		.up.flex
+
+			a(data-scroll href="#p10") ∧
+
+		.down.flex
+
+			a(data-scroll href="#p12") ∨
 	
 
 
-//- .page#p10
+//- .page#p10.flex
 
-//- .page#p10
+//- .page#p10.flex

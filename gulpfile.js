@@ -34,7 +34,7 @@ gulp.task('scripts', function() {
 
 gulp.task('deploy', function() {
 	return surge({
-		project: './dist/',
+		project: './',
 		domain: 'mathetraffics.surge.sh'
 	})
 })
