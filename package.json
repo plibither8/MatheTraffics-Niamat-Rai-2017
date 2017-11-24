@@ -19,6 +19,7 @@
     "gulp-esformatter": "^6.1.0",
     "gulp-html": "0.4.7",
     "gulp-pug": "^3.3.0",
+    "gulp-smoosher": "0.0.9",
     "gulp-stylus": "^2.6.0",
     "gulp-surge": "0.1.0",
     "gulp-watch": "^4.3.11",
