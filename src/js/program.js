@@ -46,7 +46,7 @@ let average = [];
 let distSum = [2.5, 3.1, 4.8];
 
 function submit () {
-	var input = Number(textBox.value) - 10;
+	var input = (Number(textBox.value) / 100) - 10;
 	main(input);
 }
 

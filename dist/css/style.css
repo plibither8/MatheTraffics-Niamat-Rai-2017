@@ -221,6 +221,9 @@ section.main div.page#p6 .info .images .matrix img {
   height: 40%;
   width: auto;
 }
+section.main div.page#p6 .info .images .matrix img:first-child {
+  height: 50%;
+}
 section.main div.page#p6 .info .images .network {
   width: 50%;
 }
