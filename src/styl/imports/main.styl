@@ -13,6 +13,11 @@ section.main
 			flex-direction column
 			padding 1%
 			
+			a
+				height 100%
+				width 100%
+				color inherit
+			
 			div
 				border-radius 100%
 				height 40px
@@ -78,9 +83,10 @@ section.main
 					&.symbol
 						display none
 
-		&#p1, &#p3
+		&#p1, &#p3, &#p13, &#p18
 			
 			div.info
+				
 				ul
 					padding 0 15%
 
@@ -91,17 +97,17 @@ section.main
 						
 		&#p2
 			
-			flex-direction column
-			justify-content space-around
+			.info
+				justify-content center
 			
-			h1
-				color orange
-				font-size 500%
-				font-family "Roboto"
-				padding 0 0 5px 0
-			
-				span
-					color white
+				h1
+					color orange
+					font-size 500%
+					font-family "Roboto"
+					padding 0 0 5px 0
+				
+					span
+						color white
 			
 			p.caption
 				font-size 160%
@@ -186,7 +192,6 @@ section.main
 						width 70%
 						height auto
 						border-radius 10px
-						box-shadow 0 0 100px #333
 		
 
 		&#p10
@@ -210,6 +215,68 @@ section.main
 				
 				tr td:first-child
 					color orange
+
+		&#p11, &#p12
+			
+			.info.flex
+				
+				.up
+					width 100%
+					height 60%
+					
+					img:nth-child(1)
+						height auto
+						width 15%
+						padding 0 5% 0 0
+
+					img:nth-child(2)
+						height 30%
+						width auto
+				
+				.down
+					width 70%
+					height 40%
+					justify-content space-around
+
+					.results
+						
+						li
+							padding 3% 0
+							font-size 160%
+							
+		&#p14
+			
+			img
+				width auto
+				height 80%
+				border 4px solid #000
+				
+		&#p15, &#p16
+			
+			.info.flex
+				
+				.up
+					height 80%
+					width 100%
+					justify-content space-around
+					
+					.results
+						
+						li
+							font-size 170%
+					
+				.down
+					flex-direction column
+					height 10%
+					width 100%
+					
+					p
+						font-size 150%
+						padding 0
+						margin 0
+						line-height 1.5
+						text-align center
+						width 100%
 
 		&:nth-child(2n)
 			background #222
