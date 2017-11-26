@@ -78,7 +78,7 @@
 
 		.down.flex
 
-			a.flex(href="#p6") ∨
+			a.flex(href="#p5") ∨
 
 .page#p5.flex
 
@@ -100,11 +100,11 @@
 
 		.up
 
-			a.flex(href="#p2") ∧
+			a.flex(href="#p4") ∧
 
 		.down.flex
 
-			a.flex(href="#p4") ∨
+			a.flex(href="#p6") ∨
 
 .page#p6.flex
 
@@ -175,7 +175,7 @@
 
 		.up
 
-			a.flex(href="#p4") ∧
+			a.flex(href="#p5") ∧
 
 		.down.flex
 
@@ -187,17 +187,7 @@
 
 		h1 Traffic Density
 
-		.images.flex
-
-			.matrix.flex
-
-				img(src="./img/matrix-1.png")
-				img(src="./img/d-matrix-theory.png")
-				img(src="./img/l-matrix-theory.png")
-
-			.network.flex
-
-				img(src="./img/network.png")
+		img(src="./img/network.png")
 
 	.buttons.flex
 
@@ -210,6 +200,110 @@
 			a.flex(href="#p8") ∨
 
 .page#p8.flex
+
+	.info.flex
+
+		.images.flex
+
+			.network.flex
+
+				img(src="./img/network.png")
+
+			.matrix.flex
+
+				img(src="./img/matrix-1.png")
+				img(src="./img/d-matrix-theory.png")
+				img(src="./img/l-matrix-theory.png")
+
+	.buttons.flex
+
+		.up
+
+			a.flex(href="#p7") ∧
+
+		.down.flex
+
+			a.flex(href="#p9") ∨
+
+.page#p9.flex
+
+	.info.flex
+
+		h1 Working Example
+
+		img(src="./img/map1.png")
+
+	.buttons.flex
+
+		.up
+
+			a.flex(href="#p8") ∧
+
+		.down.flex
+
+			a.flex(href="#p10") ∨
+
+.page#p10.flex
+
+	.info.flex
+
+		h1 Working Example
+
+		img(src="./img/map2.png")
+
+	.buttons.flex
+
+		.up
+
+			a.flex(href="#p9") ∧
+
+		.down.flex
+
+			a.flex(href="#p11") ∨
+
+.page#p11.flex
+
+	.info.flex
+
+		.matrix.flex
+
+				img(src="./img/a-matrix-example.png")
+				img(src="./img/d-matrix-example.png")
+				img(src="./img/l-matrix-e1.png")
+
+		.images.flex
+
+			img(src="./img/map2.png")
+
+	.buttons.flex
+
+		.up
+
+			a.flex(href="#p10") ∧
+
+		.down.flex
+
+			a.flex(href="#p12") ∨
+
+.page#p12.flex
+
+	.info.flex
+
+		h1 Traffic Density Data
+
+		include table.pug
+
+	.buttons.flex
+
+		.up
+
+			a.flex(href="#p11") ∧
+
+		.down.flex
+
+			a.flex(href="#p13") ∨
+
+.page#p13.flex
 
 	.info.flex
 
@@ -245,76 +339,13 @@
 
 		.up
 
-			a.flex(href="#p7") ∧
+			a.flex(href="#p12") ∧
 
 		.down.flex
 
-			a.flex(href="#p9") ∨
+			a.flex(href="#p14") ∨
 
-.page#p9.flex
-
-	.info.flex
-
-		h1 Working Example
-
-		.images.flex
-
-			img(src="./img/map1.png")
-			img(src="./img/map2.png")
-
-	.buttons.flex
-
-		.up
-
-			a.flex(href="#p8") ∧
-
-		.down.flex
-
-			a.flex(href="#p10") ∨
-
-.page#p10.flex
-
-	.info.flex
-
-		.matrix.flex
-
-				img(src="./img/a-matrix-example.png")
-				img(src="./img/d-matrix-example.png")
-				img(src="./img/l-matrix-e1.png")
-
-		.images.flex
-
-			img(src="./img/map2.png")
-
-	.buttons.flex
-
-		.up
-
-			a.flex(href="#p9") ∧
-
-		.down.flex
-
-			a.flex(href="#p11") ∨
-
-.page#p11.flex
-
-	.info.flex
-
-		h1 Traffic Density Data
-
-		include table.pug
-
-	.buttons.flex
-
-		.up
-
-			a.flex(href="#p10") ∧
-
-		.down.flex
-
-			a.flex(href="#p12") ∨
-
-.page#p12.flex
+.page#p14.flex
 
 	.info.flex
 
@@ -361,13 +392,13 @@
 
 		.up
 
-			a.flex(href="#p11") ∧
+			a.flex(href="#p13") ∧
 
 		.down.flex
 
-			a.flex(href="#p13") ∨
+			a.flex(href="#p15") ∨
 
-.page#p13.flex
+.page#p15.flex
 
 	.info.flex
 
@@ -414,17 +445,19 @@
 
 		.up
 
-			a.flex(href="#p12") ∧
+			a.flex(href="#p14") ∧
 
 		.down.flex
 
-			a.flex(href="#p14") ∨
+			a.flex(href="#p16") ∨
 	
-.page#p14.flex
+.page#p16.flex
 
 	.info.flex
 
-		h1 The Problem
+		h1 Analysis of Traffic Signals at an Optimum Speed
+
+		p The Question:
 
 		ul
 
@@ -434,61 +467,6 @@
 			li What values of 
 				em(style="font-family:serif") v&nbsp;
 				| would be there so that the car can pass through the maximum number of traffic signals without facing a red light?
-
-	.buttons.flex
-
-		.up
-
-			a.flex(href="#p13") ∧
-
-		.down.flex
-
-			a.flex(href="#p15") ∨
-
-.page#p15.flex
-
-	.info.flex
-
-		h1 The Solution
-
-		img(src="./img/graph.jpg")
-
-	.buttons.flex
-
-		.up
-
-			a.flex(href="#p14") ∧
-
-		.down.flex
-
-			a.flex(href="#p16") ∨
-
-.page#p16.flex
-
-	.info.flex
-
-		.up.flex
-
-			.results
-
-				li v
-					sub 1
-					| &nbsp;: 33.58 km/h
-				li v
-					sub 2
-					| &nbsp;: 29.08 km/h
-				li v
-					sub 3
-					| &nbsp;: 35.78 km/h
-
-			img(src="./img/graph11.png")
-
-		.down
-
-			p Since the maximum average speed is 
-				span(style="color: #46abe0") 33.58 km/h,
-			p The optimum speed in this case would be 
-				span(style="color: #46abe0") 27 km/h
 
 	.buttons.flex
 
@@ -504,28 +482,9 @@
 
 	.info.flex
 
-		.up.flex
+		h1 The Solution
 
-			.results
-
-				li v
-					sub 1
-					| &nbsp;: 25.58 km/h
-				li v
-					sub 2
-					| &nbsp;: 35.40 km/h
-				li v
-					sub 3
-					| &nbsp;: 33.50 km/h
-
-			img(src="./img/graph13.png")
-
-		.down
-
-			p Since the maximum average speed is 
-				span(style="color: #46abe0") 35.4 km/h,
-			p The optimum speed in this case would be 
-				span(style="color: #46abe0") 35 km/h
+		img(src="./img/graph.jpg")
 
 	.buttons.flex
 
@@ -541,10 +500,30 @@
 
 	.info.flex
 
-		h1 Results
+		h1 Example 1
 
-		p
-			| We have gained the to analyse traffic trends in a given route and a method to choose the best route possible with respect to the related factors.
+		.up.flex
+
+			.results
+
+				li v
+					sub 1
+					| &nbsp;: 33.58 km/h
+				li v
+					sub 2
+					| &nbsp;: 29.08 km/h
+				li v
+					sub 3
+					| &nbsp;: 35.78 km/h
+
+			img(src="./img/graph10.png")
+
+		.down
+
+			p Since the maximum average speed is 
+				span(style="color: #46abe0") 33.58 km/h,
+			p The optimum speed in this case would be 
+				span(style="color: #46abe0") 27 km/h
 
 	.buttons.flex
 
@@ -560,13 +539,30 @@
 
 	.info.flex
 
-		h1 Applications
+		h1 Example 2
 
-		ul
+		.up.flex
 
-			li Reduction in congestion and time delay
-			li Rapid provision of emergency services
-			li Applications in other congestion problems
+			.results
+
+				li v
+					sub 1
+					| &nbsp;: 25.58 km/h
+				li v
+					sub 2
+					| &nbsp;: 35.40 km/h
+				li v
+					sub 3
+					| &nbsp;: 33.50 km/h
+
+			img(src="./img/graph12.png")
+
+		.down
+
+			p Since the maximum average speed is 
+				span(style="color: #46abe0") 35.4 km/h,
+			p The optimum speed in this case would be 
+				span(style="color: #46abe0") 35 km/h
 
 	.buttons.flex
 
@@ -576,4 +572,47 @@
 
 		.down.flex
 
+			a.flex(href="#p20") ∨
+
+.page#p20.flex
+
+	.info.flex
+
+		h1 Results
+
+		p
+			| We have gained the to analyse traffic trends in a given route and a method to choose the best route possible with respect to the related factors.
+
+	.buttons.flex
+
+		.up
+
+			a.flex(href="#p19") ∧
+
+		.down.flex
+
 			a.flex(href="#program") ∨
+
+
+section.program#program
+
+	include ./program.pug
+
+
+.page#p21.flex
+
+	.info.flex
+
+		h1 Applications
+
+		ul
+
+			li Reduction in congestion and time delay
+			li Rapid provision of emergency services
+			li Applications in other congestion problems with networks
+
+	.buttons.flex
+
+		.up
+
+			a.flex(href="#program") ∧

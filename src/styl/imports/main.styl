@@ -2,7 +2,7 @@ section.main
 	flex-direction column
 
 
-	div.page
+	.page
 		align-items flex-end
 		font-family "Oxygen"
 		width 100%
@@ -83,7 +83,7 @@ section.main
 					&.symbol
 						display none
 
-		&#p1, &#p3, &#p5, &#p14, &#p19
+		&#p1, &#p3, &#p5, &#p16, &#p21
 			
 			div.info
 				
@@ -122,7 +122,7 @@ section.main
 			p
 				text-align center
 				
-		&#p7
+		&#p8
 
 			.info
 				width 100%
@@ -130,6 +130,13 @@ section.main
 				.images
 					width 100%
 					height 100%
+					
+					.network
+						width 50%
+						
+						img
+							width 90%
+							height auto
 					
 					.matrix
 						width 50%
@@ -142,15 +149,8 @@ section.main
 							
 							&:first-child
 								height 50%
-					
-					.network
-						width 50%
-						
-						img
-							width 90%
-							height auto
 
-		&#p8
+		&#p13
 			
 			img
 				height 20%
@@ -162,24 +162,8 @@ section.main
 				div.equation
 					color orange
 					font-size 200%
-
-		&#p9
-
-			.info
-				width 100%
-				
-				.images
-					height 100%
-					width 90%
-					justify-content space-around
-					
-					img
-						width 45%
-						height auto
-						border-radius 10px
-						box-shadow 0 0 100px #000
 		
-		&#p10
+		&#p11
 			
 			.info
 				flex-direction row
@@ -201,7 +185,7 @@ section.main
 						height auto
 						border-radius 10px
 
-		&#p11
+		&#p12
 
 			.info.flex
 				
@@ -223,7 +207,7 @@ section.main
 				tr td:first-child
 					color orange
 
-		&#p12, &#p13
+		&#p14, &#p15
 			
 			.info.flex
 				
@@ -251,14 +235,15 @@ section.main
 							padding 3% 0
 							font-size 160%
 							
-		&#p15
+		&#p7, &#p9, &#p10, &#p17
 			
 			img
+				margin auto 0
 				width auto
-				height 80%
+				height 60%
 				border 4px solid #000
 				
-		&#p16, &#p17
+		&#p18, &#p19
 			
 			.info.flex
 				
