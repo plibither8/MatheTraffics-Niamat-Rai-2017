@@ -15,7 +15,7 @@
 
 		.down.flex
 
-			a.flex(href="#p2") ∨
+			a.flex(data-scroll href="#p2") ∨
 
 .page#p2.flex
 	
@@ -33,11 +33,11 @@
 
 		.up
 
-			a.flex(href="#p1") ∧
+			a.flex(data-scroll href="#p1") ∧
 
 		.down.flex
 
-			a.flex(href="#p3") ∨
+			a.flex(data-scroll href="#p3") ∨
 
 .page#p3.flex
 
@@ -55,11 +55,11 @@
 
 		.up
 
-			a.flex(href="#p2") ∧
+			a.flex(data-scroll href="#p2") ∧
 
 		.down.flex
 
-			a.flex(href="#p4") ∨
+			a.flex(data-scroll href="#p4") ∨
 
 .page#p4.flex
 
@@ -74,11 +74,11 @@
 
 		.up
 
-			a.flex(href="#p3") ∧
+			a.flex(data-scroll href="#p3") ∧
 
 		.down.flex
 
-			a.flex(href="#p5") ∨
+			a.flex(data-scroll href="#p5") ∨
 
 .page#p5.flex
 
@@ -92,19 +92,19 @@
 
 		ol
 
-			li(style="list-style-type:decimal") Every driver takes decisions with respect to their best interests
-			li(style="list-style-type:decimal") Absence of random and unpredictable events
-			li(style="list-style-type:decimal") Synchronised and ideal traffic signals
+			li(style="list-style-type:decimal") Minimizing distance
+			li(style="list-style-type:decimal") Analysis of traffic density and minimizing time delay
+			li(style="list-style-type:decimal") Analysis of traffic lights and optimum speed
 
 	.buttons.flex
 
 		.up
 
-			a.flex(href="#p4") ∧
+			a.flex(data-scroll href="#p4") ∧
 
 		.down.flex
 
-			a.flex(href="#p6") ∨
+			a.flex(data-scroll href="#p6") ∨
 
 .page#p6.flex
 
@@ -175,11 +175,11 @@
 
 		.up
 
-			a.flex(href="#p5") ∧
+			a.flex(data-scroll href="#p5") ∧
 
 		.down.flex
 
-			a.flex(href="#p7") ∨
+			a.flex(data-scroll href="#p7") ∨
 
 .page#p7.flex
 
@@ -193,11 +193,11 @@
 
 		.up
 
-			a.flex(href="#p6") ∧
+			a.flex(data-scroll href="#p6") ∧
 
 		.down.flex
 
-			a.flex(href="#p8") ∨
+			a.flex(data-scroll href="#p8") ∨
 
 .page#p8.flex
 
@@ -219,11 +219,11 @@
 
 		.up
 
-			a.flex(href="#p7") ∧
+			a.flex(data-scroll href="#p7") ∧
 
 		.down.flex
 
-			a.flex(href="#p9") ∨
+			a.flex(data-scroll href="#p9") ∨
 
 .page#p9.flex
 
@@ -237,11 +237,11 @@
 
 		.up
 
-			a.flex(href="#p8") ∧
+			a.flex(data-scroll href="#p8") ∧
 
 		.down.flex
 
-			a.flex(href="#p10") ∨
+			a.flex(data-scroll href="#p10") ∨
 
 .page#p10.flex
 
@@ -255,15 +255,19 @@
 
 		.up
 
-			a.flex(href="#p9") ∧
+			a.flex(data-scroll href="#p9") ∧
 
 		.down.flex
 
-			a.flex(href="#p11") ∨
+			a.flex(data-scroll href="#p11") ∨
 
 .page#p11.flex
 
 	.info.flex
+
+		.images.flex
+
+			img(src="./img/map2.png")
 
 		.matrix.flex
 
@@ -271,19 +275,15 @@
 				img(src="./img/d-matrix-example.png")
 				img(src="./img/l-matrix-e1.png")
 
-		.images.flex
-
-			img(src="./img/map2.png")
-
 	.buttons.flex
 
 		.up
 
-			a.flex(href="#p10") ∧
+			a.flex(data-scroll href="#p10") ∧
 
 		.down.flex
 
-			a.flex(href="#p12") ∨
+			a.flex(data-scroll href="#p12") ∨
 
 .page#p12.flex
 
@@ -297,17 +297,31 @@
 
 		.up
 
-			a.flex(href="#p11") ∧
+			a.flex(data-scroll href="#p11") ∧
 
 		.down.flex
 
-			a.flex(href="#p13") ∨
+			a.flex(data-scroll href="#p13") ∨
 
 .page#p13.flex
 
 	.info.flex
 
 		img(src="./img/x-r.png")
+
+	.buttons.flex
+
+		.up
+
+			a.flex(data-scroll href="#p12") ∧
+
+		.down.flex
+
+			a.flex(data-scroll href="#p13b") ∨
+
+.page#p13b.flex
+
+	.info.flex
 
 		p
 			| Relation between
@@ -325,11 +339,11 @@
 
 			div.rhs
 
-				| (-2 &times; 11
-				sup -11
+				| (-2 &times; 10
+				sup -10
 				| ) x
 				sup 3
-				| &nbsp;+ (3 &times; 11
+				| &nbsp;+ (3 &times; 10
 				sup -6
 				| ) x
 				sup 2
@@ -339,17 +353,19 @@
 
 		.up
 
-			a.flex(href="#p12") ∧
+			a.flex(data-scroll href="#p13") ∧
 
 		.down.flex
 
-			a.flex(href="#p14") ∨
+			a.flex(data-scroll href="#p14") ∨
+
+
 
 .page#p14.flex
 
 	.info.flex
 
-		h1 Example 1 - 10 AM
+		h1 Example 1 at 10 AM
 
 		.up.flex
 
@@ -392,17 +408,17 @@
 
 		.up
 
-			a.flex(href="#p13") ∧
+			a.flex(data-scroll href="#p13b") ∧
 
 		.down.flex
 
-			a.flex(href="#p15") ∨
+			a.flex(data-scroll href="#p15") ∨
 
 .page#p15.flex
 
 	.info.flex
 
-		h1 Example 1 - 12 Noon
+		h1 Example 2 at 12 Noon
 
 		.up.flex
 
@@ -445,11 +461,11 @@
 
 		.up
 
-			a.flex(href="#p14") ∧
+			a.flex(data-scroll href="#p14") ∧
 
 		.down.flex
 
-			a.flex(href="#p16") ∨
+			a.flex(data-scroll href="#p16") ∨
 	
 .page#p16.flex
 
@@ -457,13 +473,12 @@
 
 		h1 Analysis of Traffic Signals at an Optimum Speed
 
-		p The Question:
+		p What we know:
 
 		ul
 
-			li A road has infinite traffic signals, each spaced 1600m apart.
-			li All of them turn red and green simultaneously.
-			li They stay green for 100 seconds and red for 60 seconds alternately.
+			li Distance between two consecutive traffic lights
+			li Time each traffic light is red for
 			li What values of 
 				em(style="font-family:serif") v&nbsp;
 				| would be there so that the car can pass through the maximum number of traffic signals without facing a red light?
@@ -472,11 +487,11 @@
 
 		.up
 
-			a.flex(href="#p15") ∧
+			a.flex(data-scroll href="#p15") ∧
 
 		.down.flex
 
-			a.flex(href="#p17") ∨
+			a.flex(data-scroll href="#p17") ∨
 
 .page#p17.flex
 
@@ -490,17 +505,17 @@
 
 		.up
 
-			a.flex(href="#p16") ∧
+			a.flex(data-scroll href="#p16") ∧
 
 		.down.flex
 
-			a.flex(href="#p18") ∨
+			a.flex(data-scroll href="#p18") ∨
 
 .page#p18.flex
 
 	.info.flex
 
-		h1 Example 1
+		h1 Example 1 at 10AM
 
 		.up.flex
 
@@ -529,17 +544,17 @@
 
 		.up
 
-			a.flex(href="#p17") ∧
+			a.flex(data-scroll href="#p17") ∧
 
 		.down.flex
 
-			a.flex(href="#p19") ∨
+			a.flex(data-scroll href="#p19") ∨
 
 .page#p19.flex
 
 	.info.flex
 
-		h1 Example 2
+		h1 Example 2 at 12 Noon
 
 		.up.flex
 
@@ -568,30 +583,11 @@
 
 		.up
 
-			a.flex(href="#p18") ∧
+			a.flex(data-scroll href="#p18") ∧
 
 		.down.flex
 
-			a.flex(href="#p20") ∨
-
-.page#p20.flex
-
-	.info.flex
-
-		h1 Results
-
-		p
-			| We have gained the to analyse traffic trends in a given route and a method to choose the best route possible with respect to the related factors.
-
-	.buttons.flex
-
-		.up
-
-			a.flex(href="#p19") ∧
-
-		.down.flex
-
-			a.flex(href="#program") ∨
+			a.flex(data-scroll href="#program") ∨
 
 
 section.program#program
@@ -615,4 +611,4 @@ section.program#program
 
 		.up
 
-			a.flex(href="#program") ∧
+			a.flex(data-scroll href="#start") ∧

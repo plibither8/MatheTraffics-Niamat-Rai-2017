@@ -23,19 +23,19 @@ section.main
 				height 40px
 				width 40px
 				background transparent
-				border 1px solid orange
+				border 1px solid blue
 				margin 10% 0
 				cursor pointer
 				user-select none
 				font-weight bold
 				font-size 120%
 				transition 0.3s all linear
-				color orange
+				color blue
 				
 				&:hover
 					color #000
-					background orange
-					border 1px solid orange
+					background blue
+					border 1px solid blue
 
 		div.info
 			height 100%
@@ -44,7 +44,7 @@ section.main
 			justify-content flex-start
 
 			h1
-				color orange
+				color blue
 				font-size 400%
 				padding 0 0 2% 0
 			
@@ -101,7 +101,7 @@ section.main
 				justify-content flex-start
 			
 				h1
-					color orange
+					color blue
 					font-size 500%
 					font-family "Roboto"
 					padding 0 0 5px 0
@@ -121,6 +121,13 @@ section.main
 			
 			p
 				text-align center
+		
+		&#p7
+			
+			img
+				margin auto 0
+				width 90%
+				height auto
 				
 		&#p8
 
@@ -130,59 +137,52 @@ section.main
 				.images
 					width 100%
 					height 100%
+					flex-direction column
+					justify-content space-around
 					
 					.network
-						width 50%
+						width 100%
+						height 50%
 						
 						img
-							width 90%
+							width 50%
 							height auto
 					
 					.matrix
-						width 50%
-						height 100%
+						width 100%
+						height 50%
 						justify-content space-around
 
 						img
-							height 40%
+							height 80%
 							width auto
 							
 							&:first-child
-								height 50%
-
-		&#p13
-			
-			img
-				height 20%
-				width auto
-				margin 4% 0
-
-			div.info
-				
-				div.equation
-					color orange
-					font-size 200%
+								height 85%
 		
 		&#p11
 			
 			.info
-				flex-direction row
+				flex-direction column
+				justify-content space-around
 				width 100%
 				
 				.matrix
-					height 100%
-					width 50%
+					height 40%
+					width 100%
 					
 					img
-						height 40%
+						height 100%
 						width auto
 				
 				.images
-					width 50%
+					width 100%
+					height 60%
+
 		
 					img
-						width 70%
-						height auto
+						width auto
+						height 90%
 						border-radius 10px
 
 		&#p12
@@ -202,10 +202,37 @@ section.main
 					padding 8px 12px
 					
 				tr:first-child
-					color orange
+					color blue
 				
-				tr td:first-child
-					color orange
+				tr td:first-childw
+					color blue
+
+		&#p13
+			
+			div.info
+				justify-content center
+			
+				img
+					width 70%
+					height auto
+					margin 4% 0
+
+		&#p13b
+			
+			div.info
+				justify-content center
+				
+				p
+					font-size 190%
+					width 85%
+					margin 0 0 5% 0
+					line-height 1
+					
+				
+				div.equation
+					color yellow
+					font-weight bold
+					font-size 200%
 
 		&#p14, &#p15
 			
@@ -216,8 +243,8 @@ section.main
 					height 60%
 					
 					img:nth-child(1)
-						height auto
-						width 15%
+						height 90%
+						width auto
 						padding 0 5% 0 0
 
 					img:nth-child(2)
@@ -225,9 +252,9 @@ section.main
 						width auto
 				
 				.down
-					width 70%
+					width 100%
 					height 40%
-					justify-content space-around
+					justify-content center
 
 					.results
 						
@@ -235,7 +262,22 @@ section.main
 							padding 3% 0
 							font-size 160%
 							
-		&#p7, &#p9, &#p10, &#p17
+					.results:nth-child(2)
+						margin 0 5%
+		
+		&#p14
+			
+			li:nth-child(1)
+				color yellow
+				font-weight bold
+		
+		&#p15
+			
+			li:nth-child(2)
+				color yellow
+				font-weight bold
+
+		&#p9, &#p10, &#p17
 			
 			img
 				margin auto 0
@@ -248,7 +290,7 @@ section.main
 			.info
 				
 				h1
-					font-size 300%
+					font-size 250%
 				
 		&#p18, &#p19
 			

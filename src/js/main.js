@@ -1,5 +1,10 @@
 "use strict";
 
+//Smooth Scroll
+var scroll = new SmoothScroll('a[href*="#"]');
+
+
+//Program
 var textBox = document.querySelector('#textBox');
 var densityOut = document.querySelector('#density');
 var speedOut = document.querySelector('#speed');
