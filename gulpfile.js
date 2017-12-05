@@ -2,7 +2,7 @@ const babel = require("gulp-babel");
 const autoprefix = require("gulp-autoprefixer");
 const gulp = require("gulp");
 const pug = require("gulp-pug");
-// const smoosher = require('gulp-smoosher');
+const smoosher = require('gulp-smoosher');
 const stylus = require("gulp-stylus");
 const surge = require("gulp-surge");
 
@@ -38,6 +38,12 @@ gulp.task('deploy', function() {
 		project: './',
 		domain: 'mathetraffics.surge.sh'
 	})
+})
+
+gulp.task('smoosh', function() {
+	return gulp.src(['dist/index.html'])
+	.pipe(smoosher())
+	.pipe(gulp.dest('dist/'))
 })
 
 gulp.task('deployWatch', ['pug', 'stylus', 'scripts', 'deploy'], function() {
