@@ -1,5 +1,51 @@
 "use strict";
 
+//Keypress
+var slide;
+var slideNumber;
+var crossedDown = false;
+var crossedUp = false;
+
+var downButtons = document.querySelectorAll('div.buttons .down a');
+var upButtons = document.querySelectorAll('div.buttons .up a');
+
+function key(e) {
+	if (e.keyCode === 40) {
+		slide = window.location.hash;
+		if (slide.length > 0) {
+			if (slide === "#p13b") {
+				crossedDown = true;
+			}
+			if (!crossedDown) {
+				slideNumber = Number(slide.substring(2, 4));
+				downButtons[slideNumber - 1].click();
+			} else {
+				slideNumber = Number(slide.substring(2, 4)) + 1;
+				downButtons[slideNumber - 1].click();
+			}
+		} else {
+			window.location.href = "#p1"
+		}
+	}
+	if (e.keyCode === 38) {
+		slide = window.location.hash;
+		if (slide.length > 0) {
+			if (slide === "#p13b") {
+				crossedUp = true;
+			}
+			if (!crossedUp) {
+				slideNumber = Number(slide.substring(2, 4));
+				upButtons[slideNumber - 2].click();
+			} else {
+				slideNumber = Number(slide.substring(2, 4)) + 1;
+				upButtons[slideNumber - 2].click();
+			}
+		} else {
+			return;
+		}
+	}
+}
+
 //Smooth Scroll
 var scroll = new SmoothScroll('a[href*="#"]');
 
